@@ -1,0 +1,31 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dutch Treat: @ViewBag.Title</title>
+    <link href="./img/VanGogh.jpg"/>
+    <link href="./css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>Welcome to Dutch Treat</header>
+    <menu>
+        <ul id="menuList">
+            <li><a asp-controller="App" asp-action="Index">Home</a></li>
+            <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
+            <li><a asp-controller="App" asp-action="About">About</a></li>
+        </ul>
+    </menu>
+    <section>
+        <h2>Dutch Treat: @ViewBag.Title</h2>
+        @RenderBody()
+    </section>
+    <footer>Copyright 2017 Dutch Treat LLC</footer>
+   
+
+    <script src="./lib/jquery/dist/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+
+    @RenderSection("Scripts", false)
+
+</body>
+</html>
