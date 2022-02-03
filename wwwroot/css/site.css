@@ -1,0 +1,53 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input, textarea {
+    font-size: 18px;
+    width: 200px;
+}
+
+    input[type=submit] {
+        width: auto;
+    }
+
+label {
+    font-size: 16px;
+}
+
+
+
+.product-info {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 8px 5px;
+    margin: 5px;
+    width: 700px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+    .product-info img {
+        float: left;
+        margin: 10px
+    }
+
+    #loginToggle{
+        cursor: pointer;
+    }
+
+    .popup-form{
+        padding: 5px;
+        border: 2px red outset;
+        display: inline-block;
+    }
+    .popup-form input{
+        width:200px;
+    }
+    .popup-form label{
+        width: 150px;
+        display: inline-block;
+    }
+    .popup-form input[type=checkbox], .popup-form input[type=submit]{
+        width: auto;
+    }
